@@ -5,6 +5,7 @@ import Forget from '../pages/Forms/forget'
 import TermAndCond from '../pages/termAndCond/termAndCond'
 import Blog from '../pages/blogs/blog'
 import SelectBlog from '../pages/blogs/oneBlogPage'
+import Product from '../pages/Products/Product'
 
 
 const AppRouter = () => {
@@ -17,6 +18,7 @@ const AppRouter = () => {
                     <Route path='/terms' component={TermAndCond} />
                     <Route exact path='/blog' component={Blog} />
                     <Route path='/blog/:id' component={SelectBlog} />
+                    <Route path='/product' component={Product} />
                 </Switch>
             </Router>
         </div>
