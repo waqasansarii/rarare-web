@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../btn/btn'
 import dot from '../../Assets/dot.png'
 import user from '../../Assets/user.png'
 import location from '../../Assets/location.png'
