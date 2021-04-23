@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Button from '../../components/btn/btn'
-import dot from '../../Assets/dot.png'
+import Button from '../../components/Btn/Btn'
+// import dot from '../../Assets/dot.png'
 
-import './bussines.css'
+import './Bussines.css'
 
 
 const BusinessInfo = () => {

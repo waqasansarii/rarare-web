@@ -1,6 +1,6 @@
 import React from 'react'
 import Search from '../../components/ProductComp/Search'
-import SearchResultHead from '../../components/ProductComp/searchResultHead'
+import SearchResultHead from '../../components/ProductComp/SearchResultHead'
 import './Product.css'
 
 const Product = () => {

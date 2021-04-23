@@ -1,5 +1,5 @@
 import React from 'react'
-import './terms.css'
+import './Terms.css'
 
 const TermAndCond = () => {
     return (

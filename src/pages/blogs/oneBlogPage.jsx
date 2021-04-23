@@ -1,6 +1,6 @@
 import React from 'react'
 import search from '../../Assets/Icon feather-search@2x.png'
-import SocialFeed from '../../components/blogComp/socialFeed'
+import SocialFeed from '../../components/BlogComp/SocialFeed'
 import { useParams } from 'react-router-dom'
 import { blog_card_data } from './cardData'
 

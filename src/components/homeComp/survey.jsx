@@ -1,7 +1,7 @@
 import React from 'react'
 import pen from '../../Assets/Group 4726@2x.png'
-import Button from '../btn/btn'
-import SurveyCard from '../cards/surveyCard'
+import Button from '../Btn/Btn'
+import SurveyCard from '../Cards/SurveyCard'
 
 const Survey = () => {
     return (

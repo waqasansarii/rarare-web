@@ -4,7 +4,7 @@ import polygon1 from '../../Assets/Polygon 3@2x.png'
 import polygon2 from '../../Assets/Polygon 2@2x.png'
 import cros1 from '../../Assets/Group 26@2x.png'
 import cros2 from '../../Assets/Group 25@3x.png'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 
 const Reinvite = () => {
     return (

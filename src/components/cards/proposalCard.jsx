@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 import dot from '../../Assets/dot.png'
 import location from '../../Assets/location.png'
 import PropTypes from 'prop-types';

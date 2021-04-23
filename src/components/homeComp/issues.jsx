@@ -1,7 +1,7 @@
 import React from 'react'
 import more from '../../Assets/Group 3537@2x.png'
-import Button from '../btn/btn'
-import RecentIssueCard from '../cards/recentIssueCard'
+import Button from '../Btn/Btn'
+import RecentIssueCard from '../Cards/RecentIssueCard'
 
 
 const Issues = () => {

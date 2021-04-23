@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 import step from '../../Assets/step.png'
 import proposal2 from '../../Assets/proposal2 (2).png'
 import voice from '../../Assets/voice_step.png'

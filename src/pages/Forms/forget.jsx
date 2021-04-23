@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+
 import "./Forms.css";
 // assets
 
@@ -10,7 +11,7 @@ import xSmallIcon from "../../Assets/Group 26@2x.png"
 import xMedumIcon from "../../Assets/Group 25@3x.png"
 import polygon1 from "../../Assets/Polygon 3@2x.png"
 import polygon2 from "../../Assets/Polygon 2@2x.png"
-import Button from '../../components/btn/btn';
+import Button from '../../components/Btn/Btn';
 
 const Forget = () => {
     return (

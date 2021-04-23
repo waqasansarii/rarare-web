@@ -2,7 +2,7 @@ import React from 'react'
 import cartoon from '../../Assets/cartoon.png'
 import smCarton from '../../Assets/Group 4694@2x.png'
 import mic from '../../Assets/Icon awesome-microphone@2x.png'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 
 
 const HelpCartoon = () => {

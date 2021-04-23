@@ -1,5 +1,5 @@
 import React from 'react'
-import slider1 from '../../Assets/Rectangle 95@3x.png'
+// import slider1 from '../../Assets/Rectangle 95@3x.png'
 import user from '../../Assets/user.png'
 import location from '../../Assets/location.png'
 import timer from '../../Assets/Group 3624@2x.png'

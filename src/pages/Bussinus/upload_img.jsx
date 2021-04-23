@@ -1,12 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Button from '../../components/btn/btn'
-import dot from '../../Assets/dot.png'
+import Button from '../../components/Btn/Btn'
+// import dot from '../../Assets/dot.png'
 
-import './bussines.css'
+import './Bussines.css'
 
 
 const BusinessUploadImg = () => {
+
+    let [img, setImg] = useState([])
+
+    const handleUrl = (e) => {
+        // let arr = []
+        let url = URL.createObjectURL(e.target.files[0])
+        // arr.push(url)
+        setImg([url, ...img])
+    }
+    // console.log(img)
+
+    const dltImg =(e)=>{
+       let filter = img.filter((val)=>val!==e)
+       setImg(filter)
+    }
+
     return (
         <div className='bussines_container'>
             <div className='bussines_main_div'>
@@ -21,11 +37,18 @@ const BusinessUploadImg = () => {
                     <h6><strong>Upload Incorporation Certificate</strong></h6>
                 </div>
                 <div className="upload_div">
-                    <img className='upload_img' src="https://i.stack.imgur.com/x3KMH.jpg" alt="" />
+                    <label htmlFor="upload_logo">
+                        <img className='upload_img' src="https://i.stack.imgur.com/x3KMH.jpg" alt="" />
+                    </label>
+                    <input type="file" onChange={(e) => handleUrl(e)} name="upload_logo" id="upload_logo" />
                 </div>
-                <div className="upload_result">
-                    <p className='upload_delete'>&times;</p>
-                    <img className='upload_img_result' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZfQnoQ4zjjixL82qJfCwct9glVS_z5OQrg&usqp=CAU" alt="" />
+                <div className='main_upload_img_div'>
+                    {img && img.map((val,i) => (
+                        <div className="upload_result" key={i}>
+                            <p className='upload_delete' onClick={()=>dltImg(val)} >&times;</p>
+                            <img className='upload_img_result' src={val} alt="" />
+                        </div>
+                    ))}
                 </div>
                 <div className="business_btn_div">
                     <Link to='/business-info'>

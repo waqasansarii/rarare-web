@@ -3,12 +3,12 @@ import dot from '../../Assets/dot.png'
 import user from '../../Assets/user.png'
 import location from '../../Assets/location.png'
 
-const ProductProposalCard = ({ list }) => {
+const ProductProposalCard = ({ list,left ,className}) => {
     return (
         <div>
             {!list ?
                 <div className='pro_proposal_card_container'>
-                    <div className="proposal_card_body">
+                    <div className={`proposal_card_body ${className}`}>
                         <div className='card_title_div proposal_Card_title'>
                             <h5><strong> Title of issues </strong></h5>
                             <div className='ongoing_btn_div'>
@@ -38,7 +38,7 @@ const ProductProposalCard = ({ list }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="proposal_card_body">
+                    <div className={`proposal_card_body ${className} ${left}`}>
                         <div className='card_title_div proposal_Card_title'>
                             <h5><strong> Title of issues </strong></h5>
                             <div className='ongoing_btn_div'>
@@ -71,7 +71,7 @@ const ProductProposalCard = ({ list }) => {
                 </div>
                 // {/*proposal list style  */}
                 :
-                <div className='proposal_list_body'>
+                <div className={`proposal_list_body`}>
                     <div className='card_title_div proposal_Card_title'>
                         <h5><strong> Title of issues </strong></h5>
 

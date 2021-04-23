@@ -1,11 +1,12 @@
 import React from 'react'
 
-const TopicHead = ({head,result}) => {
+const TopicHead = ({head,result,button}) => {
     return (
         <div>
             <div className='topic_head_div'>
                 <h5><strong>{head}</strong></h5>
-                <p>{result}</p>
+                <p>{result?result:null}</p>
+                {button?button:null}
             </div>
         </div>
     )

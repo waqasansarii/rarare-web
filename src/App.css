@@ -10,3 +10,83 @@ ul{
   margin: 0px ;
   padding: 0%;
 }
+
+.textGrey{
+  color: #909ab5;
+}
+.text_green {
+  color: #19c2a0;
+}
+/* position */
+
+.position_relative {
+  position: relative;
+}
+
+/* background colors */
+
+.bg_lightgreen {
+  background-color: #20c0a0;
+}
+
+.bg_blue {
+  background-color: #014c9d;
+}
+
+.bg_red {
+  background-color: #dc4b3b;
+}
+
+.bg_white{
+  background-color: white;
+}
+
+/* text colors */
+
+.text_darkblue {
+  color: #001758 !important;
+}
+
+.text_bluegreen {
+  color: #19c2a0;
+}
+
+.text_green {
+  color: #0AC718;
+}
+
+.text_lightgray {
+  color: #8792af !important;
+}
+
+.text_lightpurple {
+  color: #9ba3cc !important;
+}
+
+.text_black {
+  color: black;
+}
+
+/* border color */
+
+.border_solid {
+  border: 1px solid;
+}
+
+.bluegreen_border {
+  border-color: #20c0a0 !important;
+}
+
+.gray_border {
+  border-color: #80808066 !important;
+}
+
+.border_none {
+  border: none !important;
+}
+
+/* width */
+
+.cus_width100{
+  width: 150px;
+}

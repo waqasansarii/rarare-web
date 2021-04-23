@@ -124,6 +124,18 @@
     padding: 5px 30px;
     width: 150px;
 }
+.upload_div>input{
+    display: none;
+}
+.main_upload_img_div{
+    display: flex;
+}
+.upload_result{
+    margin: 10px;
+}
+.upload_delete:hover{
+    cursor: pointer;
+}
 .upload_result{
     text-align: start !important;
     position: relative;

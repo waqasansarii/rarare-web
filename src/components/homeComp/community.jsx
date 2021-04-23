@@ -1,6 +1,6 @@
 import React from 'react'
 import cros2 from '../../Assets/Group 25@3x.png'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 import eye from '../../Assets/eye.png'
 import square from '../../Assets/Group 33@2x.png'
 import maskGroup from '../../Assets/Mask Group 2@2x.png'

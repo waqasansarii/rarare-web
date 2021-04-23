@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { blog_card_data } from '../../pages/blogs/cardData'
+import { blog_card_data } from '../../pages/Blogs/cardData'
 
 const BlogCard = () => {
     return (

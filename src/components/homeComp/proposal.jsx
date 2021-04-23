@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 import Group from '../../Assets/Group 4728@2x.png'
-import ProposalCard from '../cards/proposalCard'
+import ProposalCard from '../Cards/ProposalCard'
 
 const Proposal = () => {
     return (

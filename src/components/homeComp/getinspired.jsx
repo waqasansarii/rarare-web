@@ -4,7 +4,7 @@ import group1 from '../../Assets/red-group (2).png'
 import group2 from '../../Assets/w-group (2).png'
 import magnet from '../../Assets/magnet.png'
 import appstore from '../../Assets/app-store (2).png'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 
 const GetInspired = () => {
     return (

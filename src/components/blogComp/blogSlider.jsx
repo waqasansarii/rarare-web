@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination } from 'swiper'
-import Button from '../btn/btn'
+import Button from '../Btn/Btn'
 
 // Import Swiper styles
 // import 'swiper/swiper.scss';

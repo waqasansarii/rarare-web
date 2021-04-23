@@ -1,10 +1,10 @@
 import React from 'react'
 import search from '../../Assets/Icon feather-search@2x.png'
-import './blog.css'
-import BlogCard from '../../components/cards/blogCard'
-import UpcomingEvent from '../../components/blogComp/upcomingEvent'
-import SocialFeed from '../../components/blogComp/socialFeed'
-import { BlogSlider } from '../../components/blogComp/blogSlider'
+import './Blog.css'
+import BlogCard from '../../components/Cards/BlogCard'
+import UpcomingEvent from '../../components/BlogComp/UpcomingEvent'
+import SocialFeed from '../../components/BlogComp/SocialFeed'
+import { BlogSlider } from '../../components/BlogComp/BlogSlider'
 
 const Blog = () => {
     return (

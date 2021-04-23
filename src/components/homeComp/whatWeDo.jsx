@@ -1,6 +1,6 @@
 import React from 'react'
 import more from '../../Assets/Group 3537@2x.png'
-import WhatwedoCard from '../cards/whatwedoCard'
+import WhatwedoCard from '../Cards/WhatwedoCard'
 import maskGroup from '../../Assets/Mask Group 2@2x.png'
 import polygon2 from '../../Assets/Polygon 2@2x.png'
 
